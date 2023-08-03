@@ -1,0 +1,12 @@
+Priority Queues 
+/*This data structure containing records with numerical keys(priorites)  and supporting some of the following operations: */
+
+Construct a priority queue from N given items; 
+insert a new item; 
+remove  the largest item; 
+replace the largest item with a new item (unless the new item is larger); 
+change the priority of an item; 
+Delete an arbitrary specified item; 
+Join two priority queues into one larger one; 
+
+(if records can have duplicate keys, we take the largest to mean any record with the largest key value)

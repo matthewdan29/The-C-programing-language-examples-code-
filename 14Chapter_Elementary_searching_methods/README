@@ -1,0 +1,12 @@
+As with proirity queues, it is best to think of search algorithms as 
+belonging to packages implementing a veriety of gneric operations that can be 
+separated from particular implementations, so that alternate implementations canbe substituted easily. The operations of intrest include: 	
+
+	Initialize the data structure. 
+	Search for a record (or records) having a given key. 
+	insert a new record.
+	delete a specified record
+	Join two dictionaries to make a large one. 
+	Sort the dictionary; output all the records in sorted order. 
+
+As with priority queues, it is sometimes convenient to combine some of these operations. 

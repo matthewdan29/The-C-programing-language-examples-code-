@@ -1,0 +1,11 @@
+The Following is a direct implementation of the obvious strategy of seccessively 
+choosing the c the smallest remaining element from a and b: 
+
+i = 1; 
+j = 1; 
+a[M+1] = INT_MAX; 
+b[N+1] = INT_MAX; 
+for (k 1; k <= M+N; k++)
+	c[k] = (a[i]<b[j] ? a[i++] : b[j++]); 
+
+When the a(b) array is exhausted, the loop simply moves the rest of the b(a) array into the c array. This method obviously uses M + N comparison.

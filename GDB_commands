@@ -1,0 +1,44 @@
+(lay next = change to useful view )
+info address -- Describe where sysmbol SYM is stored. 
+
+info all-registers -- List of all registers and their contents, for selected stack frame 
+
+info args -- All argument variables of current stack frame or those matching REGEXPs. 
+
+info auto-load -- print current status of auto-loaded files 
+
+info auxv -- Display the inferiors auxiliary vector 
+
+info bookmakrks -- statuss of user-settable bookmarks. 
+
+info exceptions -- List all Aba exceptions names. 
+
+info extensions -- All filename extenions associated with a source lang 
+
+info files -- names of targets and files being debugged 
+
+info float -- print the status of the floating point unit 
+
+info frame -- All about the selected stack frame 
+
+info frame filter -- list all registered python frame filters 
+
+info functions -- all function names or those matching REGEXPs
+
+info guile -- prefix command for guile info displays
+
+info line -- core addresses of the code for a source line 
+
+info locals -- all local variables of current stack frame or thos matching 
+
+info macro -- show the definition of MACRO and it's source location 
+
+info mem -- memory region attributes 
+
+info module -- print info about modules 
+
+info modules -- all module names, or those matching regexp 
+ 
+info program -- execution status of the program 
+
+info registers -- list of integer registers and their contents, for selected stack 
