@@ -1,0 +1,2 @@
+Radix sorting methods are designed to take advantage of particular characterisitics of a computer's architecture
+These methods are best for very long keys being involved in searches 
