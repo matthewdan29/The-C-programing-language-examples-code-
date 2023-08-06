@@ -1,0 +1,3 @@
+Think of SQL queues IDK how else to explain it simpler. If you dont know SQL then IDK why you looking this week into this repo
+
+In general, we assume that we have a set of "records" with certain "attributes" that take on values from some ordered set. Finding all records in a database that satisfy specified range restrictions on a specified set of attributes is called "range searching", and is a difficult and important problem in practical applications. We will concentrate on the two-dimensional geometric problem in which records are points and attributes are their coordinates, and then discuss approprate generlizations. 

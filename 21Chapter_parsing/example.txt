@@ -1,0 +1,13 @@
+expression
+	term
+		factor 
+			(
+				expression
+					term 
+						factor A * 
+						term 
+							factor 	B
+				+
+				expression
+					term
+						factor 

@@ -1,0 +1,13 @@
+/*public key*/
+
+The idea in public-key cyptosystems is to use a "phone book" of encryptioin keys. Everyones encryption key (denoted by P) is public knowledge: a person's key could be listed, for example, next to his number in the telephone book. Everyone aslo has a secret key used for decryption; this secret key (denoted by S) is not known to anyone else. To transmit a miessage 'M', the sender looks up the receiver's public key, uses it to encrypt the message, and then transmits the message. We'll denote the encrypted message (ciphertext) by C = P(M). The receiver uses his private decryption key to decrypt and read the message. For this system to work, at least the following conditions must be satisfied: 
+	(i) S(P(M)) = M for every message M. 
+	(ii) All (S, P) pairs are distinct. 
+	(iii) Deriving S from P is as hard as reading M. 
+	(iv) Both S and P are easy to compute. 
+The first of these is a fundamental cryptographic property, the second two provide the security, and the fourth makes the system feasible for use.
+
+
+First, It is necessary to generate three large "random" prime numbers: the largest will be 's' and we'll call the other two 'x' and 'y'. Then 'N' is chosen to be the product of 'x' and'y', and 'p' is chosen so that "ps" mod (x-1)(y-1) = 1. it is possible to prove that, with 'N', 'p', and 's' chosen in this way, we have M^(ps) mod N = M for all messages M.
+
+Personal thought same prime sections in the number theory I == H where using the modeling for ML training  
