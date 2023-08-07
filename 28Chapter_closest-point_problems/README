@@ -1,0 +1,6 @@
+I'm gone be real this leads to subjects in ML far to complex to just explain. Although I will be doing a walk thru for CNN and DNN. If you follow along closely to the graph chapter it will help but right now i'm just gone post the first paragraph of this chapter to give you a better understanding than just me posting code I would have to give a live talk or video explaining the concepts how I would want to tell you.  
+
+
+Geometric problems involving points on the plane usually involve implicit or explicit treatment of distances between the points. For example, a very natural problem which arises in many applications is the nearest-neighbor problem: find the point among a set of given points closest to a given new point. This seems to involove checking the distance from the given point to each point in the set, but much better solutions are possible. This will focus on the "Vornoi diapgram" that can be used effectively for a variety of such problems in the plane.Our approach wil be to descibe a general method for solving closest point problems through careful consideration of a prototype implementation for a simple problem.
+
+no cap this is a lot please if your going to go deep I say go and read this chapter I'm not gone be able to explain it better.  
