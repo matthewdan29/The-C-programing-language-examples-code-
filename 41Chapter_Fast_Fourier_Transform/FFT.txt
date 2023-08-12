@@ -1,0 +1,7 @@
+The general scheme is to:
+
+	Evaluate the input polynomials at the (2N-1)st roots of unity. 
+	Multipy the two values obtained at each point. 
+	Interpolate to find the result by evaluating the polynomial defined by the numbers just computed at the (2N-1)st root of unity. 
+
+	The discription above can be directly translated into a program that uses a procedure that can evaluate a polynomial of degree "N-1" at the "Nth" unity. Unfortunately, all the arithmetic in this algorithm is to complex arithmetic, and C has no built-in type "Complex". While it is possible to have a user-defined type "I not Doing that you know how overloaded a type has to be and make it iterable for hashing (with non bit rep)?"

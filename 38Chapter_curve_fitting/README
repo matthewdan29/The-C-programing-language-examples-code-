@@ -1,0 +1,13 @@
+
+	It can be shown from elementary mechanics that the shape assumed by the spline between two adjacent knots is a third-degree polynomial. Translated to out data fitting problem, this means that we should consider the curve to be "N-1"
+different cubic polynomials 
+		
+		
+with s sub 'i'(x) defined as the cubic polynomial to be used in the interval between x sub 'i' and x(i+1). 
+
+	The spline can be represented in the obvious way as four one-dimensional arrays (i can add more but its gone to complacate the message). Creating a spline consists of computing the necessary "a, b, c, d" coefficients from the given 'x' points and 'y' values. The physical constraints on the spline correspond to simultaneous equations which can be solved to yield the coefficients. 
+
+	For example, we obviously must have s sub 'i' (x sub 'i') = y sub 'i' and s sub 'i'(x sub 'i+1') = y sub (i + 1) for i = 1,2, ... N-1 because the spline must touch the knots. Not only does the spline touch the knots, but also it curves smoothly around them with no sharp bends or kinks. Mathematically, this means that the first derivatives of the spline polynomials must be equal at the knots (s' sub 'i-1'(x sub 'i') for i = 2, 3, ...N-1). In fact, it turns out that the second derivatives of the polynomials must also be equal at the knots. These conditions give a total of "4N-6" equations in the 4(N-1) unknown coefficients. Two more conditions need to be specified to describe the situation at the endpoints of the spline. Several options are available; we'll use the so called "natural" spline which derives from s'' sub '1'(x sub 1) = 0 and s'' sub 'N-1'(x sub 'N') These conditions give a full system of "4N-4" equations in "4N-4" unknowns, which could be solved using Gaussian elimination to calculate all the coefficients that describe the spline. 
+
+/* Ya it's a lot more but this is to get you a taste you can use excell or spss to do such functions on data and it will give a little more understanding but doing that calcualtions by hand will teach you much better then this snip. */
+

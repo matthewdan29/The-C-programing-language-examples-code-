@@ -1,0 +1,5 @@
+/* It's a lot of infomation that is not being admitted here */
+	The general strategy of the improved method for polynomial multiplication we'll be examining takes advantage of the fact that a polynomial of degree "N-1" is completely determined by its calue at "N" different points. When we multipy two polynomials of degree "N-1" together, we get a polynomial of degree "2N-2"if we can fine that polynomial value at "2N-1" points, then it is completely determied. But we can find the value of the result at any point simply by evaluating the two polynomials to be multiplied at that point and then multiplying two polynomials of degree "N-1": 
+	Evaluate the input polynomials at "2N-1" distinct points. 
+	Multiply the two values obtained at each point. 
+	interpolate to find the unique result polynomial that has the given value at the given points. 

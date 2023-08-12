@@ -1,0 +1,9 @@
+There are several operations that can be performed on such equations that do not alter the solution: 
+
+	Interchange equations: Clearly, the order in which the equations are written down doesn't affect the solution. In the matrix representation, this operation corresponds to  interchanging row in the matrix. 
+	Rename variables: this corresponds to interchanging columns in the matrix representation. 
+	Multiply: equations by a constant: Again, in the matrix representation, this corresponds to multiplying a row in the matrix by a constant. Add two equations and replace one of them by the sum
+
+This method just described is almost appropriate for "N-by-N" matrixes with most of the "N^2" elements non-zero. 
+
+special techniques are appropriate for sparse matrices in which most of th elements are zero. This sistutation corresponds to systems of equations in which each equation has only a few terms. 

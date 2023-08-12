@@ -1,0 +1,20 @@
+The Rules of safe random number generating was Develped by the Scientist 
+		Dr. Donald Ervin Knuth from Milwaukee, Wisconsin. 
+ 
+His contubition below provided building block for all technolgy today 
+	Choosing the constants "seed", "b", and "m". Some common-sense principles apply, but in this case common sense isn't enought to ensure good random numbers. 
+	First, 'm' should be large
+	It will normally be convenient to make 'm' a power of 10 or 2. 
+	Second, 'b' shouldn't be too large or too small (1 digit less then m)
+	Third, 'b' should be end with x21, with 'x' even
+	 
+
+I understand most poeple used the random module for python or any OOP lang but random and generating truely random numbers is important to creating programs in AI and encyption.
+
+The best-known method for generating random numbers, which has been used almost exclusively since it was introduced by D. Lehmer in 1951, is the so-called "linear congruential method". If "seed" contains some arbitrary number, then the following statement fills up an array with 'N' random numbers using this method: 
+	a[0] = seed; 
+	for (i = 1; i <= N; i++)
+		a[i] = (a[i-1] * b+t) % m; /* remeber the modular functions provides the r or remainder of int/int != R (notations for whole number also rational ) */
+
+
+(hey use a random number with a prime int that then is modular for right triangles while decresing by a constent. ) 

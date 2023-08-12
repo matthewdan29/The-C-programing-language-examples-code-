@@ -1,0 +1,6 @@
+For the RSA system we need not only to multiply large integers, but also exponentiate and divde. specifically we need to compute M^p mod N when M, p, and N are all large integers, This is not a simple computation to perform, but we can sketch a method. First exponentiation can be done with successive multiplications, as decribed above, so it suffices to consider how to compute M(1)M(2) mod N when M(1),M(2) and N are all large integers. The key to performing the modulus computation is to compute 10^i mod N for all 10^i smaller than the largest integer to be encountered. Then any particular modulus eill be a linear combination of these values. A larger radix will lower the amount of computation nescessary. In mathematical terms, this method corresponds to computing
+	0120200103110001200004012314 mod N (this is super simple)
+
+	120(x^6 mod N) + 2001(x^5 mod N) + 311(x^4 mod N) + (x^3 mod N) + 2000(x^2 mod N) + 401(x mod N) + 2314
+
+for x = 1000. The 10000^i mod N values can be computed ahead of time and stored in a table, or computed incrementally as needed, as in the Rabin-Karp sorting strin search. If you check I noted this phinomanon. 
