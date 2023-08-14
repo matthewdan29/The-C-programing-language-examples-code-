@@ -1,0 +1,5 @@
+A two-phase process is normally used to solve general linear programs. 
+First, solve a linear program involving the artificaial 's' variables in order to get a point on the simplex for our original problem. 
+Then, we dispose of the 's' variables and reintroduce our original objective function to proceed from this point to the solution.
+
+Look at frameworks like TenserFlow (GPU processing) and pandas server (lots of tools to use in one server application. )
